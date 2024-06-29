@@ -11,7 +11,6 @@ app.use(express.json());
 
 dbConnection();
 
-const connectionString = process.env.Mongo_Url
 
 // Use routes
 app.use(contactRouter);
